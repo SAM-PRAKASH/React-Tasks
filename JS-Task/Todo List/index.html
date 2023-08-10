@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Todo List</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" -->
+    <!-- integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <table>
+        <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+            <tr>
+                <td>
+                    <div>
+                        <h1>Todo List</h1>
+                    </div>
+                    <div>
+                        <input type="text" name="firstName" id="firstName">
+                        <button type="submit" class="form-action-buttons" value="Submit">
+                            <span class="glyphicon glyphicon-plus"></span> +
+                        </button>
+                    </div><br>
+                </form>
+            </table>
+            <table class="list" id="personalDetails">
+                <thead>
+                    <tr>
+                        <th>Entered Name List</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    <script src="./script.js"></script>
+</body>
+
+</html>

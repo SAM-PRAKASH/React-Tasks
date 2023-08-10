@@ -1,0 +1,20 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+  h1{
+    font-family: 'Roboto Slab', serif;
+  }
+div{
+    display: inline;
+}
+.Img1{
+ width:30%; 
+}
+.Img2{
+    
+    width:15%;
+    }
+.Img3{
+    width:15%;    
+}
+.Img4{
+ width: 30%;   
+}

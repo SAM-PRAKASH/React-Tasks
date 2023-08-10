@@ -1,0 +1,13 @@
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.B1{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+}
+body{
+    text-align: center;
+}

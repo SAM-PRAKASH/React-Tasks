@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    position: absolute;
+    padding-left: 45%;
+    padding-top: 10%;
+  }
+  .form-control{
+    width: 100%;
+    font-size: 4rem;
+  }
+  .calculator {
+    width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(221, 221, 221);
+  }
+  
+  .btn {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    --bs-btn-bg:rgb(221, 221, 221);
+    --bs-btn-color:black;
+    --bs-btn-border-color:0;
+  }
+  .btn-success{
+    width: 150px;
+    --bs-btn-bg:#0d6efd;
+  }
+  
+  

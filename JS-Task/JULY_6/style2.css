@@ -1,0 +1,35 @@
+body{
+    background-color: yellowgreen;
+}
+
+div{
+    padding: 8% ;
+    border-radius: 5%;
+    position: absolute;
+}
+.Line1{
+  display: inline;  
+}
+.Line2{
+  display: inline;
+}
+#R{
+    background-color: red;
+    margin-top: 1%;
+    margin-left: 32%;
+}
+#Y{
+    background-color: yellow;
+    margin-top: 1%;
+    margin-left: 52%;
+}
+#B{
+    background-color: blue;
+    margin-top: 20%;
+    margin-left: 32%;
+}
+#G{
+    background-color: green;
+    margin-top: 20%;
+    margin-left: 52%;
+}

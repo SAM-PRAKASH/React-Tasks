@@ -1,0 +1,78 @@
+<!-- Curd operation table with edit,delete functionality  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>DOM Manipulation with Forms</title>
+</head>
+
+<body>
+
+
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>First Name</label>
+                        <input type="text" name="firstName" id="firstName">
+                    </div>
+                    <div>
+                        <label>Last Name</label>
+                        <input type="text" name="lastName" id="lastName">
+                    </div>
+                    <div>
+                        <label>Address</label>
+                        <input type="text" name="address" id="address">
+                    </div>
+                    <div>
+                        <label>Gender</label>
+                        <input type="text" name="gender" id="gender">
+                    </div>
+                    <div>
+                        <label>Food</label>
+                        <input type="text" name="food" id="food">
+                    </div>
+                    <div>
+                        <label>State</label>
+                        <input type="text" name="state" id="state">
+                    </div>
+                    <div>
+                        <label>Country</label>
+                        <input type="text" name="country" id="country">
+                    </div>
+
+                    <div class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </table>
+        </td>
+        <td>
+            <table class="list" id="personalDetails">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Address</th>
+                        <th>Gender</th>
+                        <th>Food</th>
+                        <th>State</th>
+                        <th>Country</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </td>
+    </tr>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
