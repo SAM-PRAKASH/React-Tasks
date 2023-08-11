@@ -1,17 +1,10 @@
-<!doctype html>
-<html lang="en">
+import logo from './logo.svg';
+import './App.css';
 
-<head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="styles.css" rel="stylesheet">
-</head>
-
-<body>
+function App() {
+  return (
     <div class="container">
-        <div class="Plans" id="P1"><br>
+        <div class="Plans" id="P1">
             <h4>FREE</h4>
             <h1>$0/month</h1>
             <button class="button button5">Button</button>
@@ -23,6 +16,7 @@
             <button class="button button5">Button</button>
         </div>
     </div>
-</body>
+  );
+}
 
-</html>
+export default App;
